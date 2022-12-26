@@ -19,6 +19,7 @@ public class HomePageScooter {
     }
 
     public HomePageScooter(WebDriver driver) {
+
         this.driver = driver;
     }
 }
