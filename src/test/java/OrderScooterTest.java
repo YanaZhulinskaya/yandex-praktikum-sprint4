@@ -12,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class OrderScooterTest {
     OrderScooter objOrderScooter;
     WebDriver driver;
+
     private final String name;
     private final String surname;
     private final String address;
