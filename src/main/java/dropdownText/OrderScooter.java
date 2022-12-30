@@ -54,7 +54,6 @@ public class OrderScooter {
         WebElement element = driver.findElement(orderButtonMiddle);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
-
     // метод клика на кнопку order в разделе "Как это работает"
     public void clickOrderButtonMiddle() {
 

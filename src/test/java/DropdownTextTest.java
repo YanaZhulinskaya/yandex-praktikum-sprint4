@@ -14,7 +14,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class DropdownTextTest {
     HomePageScooter objHomePage;
     WebDriver driver;
-
     @Before
     public void before() {
         //драйвер для браузера Chrome

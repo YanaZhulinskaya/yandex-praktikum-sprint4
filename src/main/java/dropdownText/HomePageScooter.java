@@ -17,7 +17,6 @@ public class HomePageScooter {
         By locator = By.id("accordion__heading-" + index);
         driver.findElement(locator).click();
     }
-
     public HomePageScooter(WebDriver driver) {
 
         this.driver = driver;
